@@ -1,0 +1,25 @@
+#classtest2/productstylesheet.css
+.box {
+            width: 200px;
+            height: 500px;
+            padding: 20px;
+            border-radius: 10px ;
+            border: 2px solid #000000;
+            margin: 15px;
+            margin-left:40%;
+            background-color: lightblue;
+        }
+        .price{
+            color: #ff0000;
+        }
+        .description{
+            font-size: 14px;
+            color: #1f1f1f;
+            
+        }
+        .title{
+            font-size: 14px;
+            font-weight: bold;
+            color:#000000;
+            align-self: center;
+        }
