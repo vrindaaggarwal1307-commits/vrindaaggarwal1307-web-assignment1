@@ -1,101 +1,100 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 16px;
-}
-
 body {
-  font-family: 'Open Sans', sans-serif;
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
 }
 
-.label {
-  border: 2px solid black;
-  width: 270px;
-  margin: 20px auto;
-  padding: 0 7px;
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
-header h1 {
+h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
   text-align: center;
-  margin: -4px 0;
-  letter-spacing: 0.15px
 }
 
-p {
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
 }
 
-.divider {
-  border-bottom: 1px solid #888989;
-  margin: 2px 0;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.bold {
-  font-weight: 800;
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
 }
 
-.large {
-  height: 10px;
+.bottom-line {
+  margin-top: 25px;
 }
 
-.large, .medium {
-  background-color: black;
-  border: 0;
+h1, h2 {
+  font-family: Impact, serif;
 }
 
-.medium {
-  height: 5px;
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
 }
 
-.small-text {
-  font-size: 0.85rem;
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
 }
 
-
-.calories-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+.price {
+  text-align: right;
+  width: 25%;
 }
 
-.calories-info h2 {
-  margin: 0;
+/* FOOTER */
+
+footer {
+  font-size: 14px;
 }
 
-.left-container p {
-  margin: -5px -2px;
-  font-size: 2em;
-  font-weight: 700;
+address {
+  font-style: normal;
 }
 
-.calories-info span {
-  margin: -7px -2px;
-  font-size: 2.4em;
-  font-weight: 700;
+.address {
+  margin-bottom: 5px;
 }
 
-.right {
-  justify-content: flex-end;
+a {
+  color: black;
 }
 
-.indent {
-  margin-left: 1em;
+a:visited {
+  color: black;
 }
 
-.double-indent {
-  margin-left: 2em;
+a:hover {
+  color: brown;
 }
 
-.daily-value p:not(.no-divider) {
-  border-bottom: 1px solid #888989;
-}
-.note {
-  font-size: 0.6rem;
-  margin: 5px 0;
-  padding: 0 8px;
-  text-indent: -8px;
+a:active {
+  color: brown;
 }
